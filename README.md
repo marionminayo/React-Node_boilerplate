@@ -7,5 +7,5 @@ git clone then run npm install
 # create build folder
 npm run build
 
-#start app
+# start app
 node app.js
