@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-//var App = require('./components/App');
+var App = require('./components/App');
 var ListHolder = require('./components/render')
 
 
-ReactDOM.render(<ListHolder/>, document.getElementById("app") )
+ReactDOM.render(<div><ListHolder/><App/></div>, document.getElementById("app") )
